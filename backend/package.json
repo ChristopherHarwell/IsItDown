@@ -1,0 +1,18 @@
+{
+  "name": "isitdown",
+  "version": "1.0.0",
+  "description": "A service that allows a user to register and ping any number of URLs to see if the service is down",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Christopher Harwell",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.3.1"
+  }
+}
