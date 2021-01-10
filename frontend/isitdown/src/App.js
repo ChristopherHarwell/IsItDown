@@ -2,9 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import Card from './components/card/Card';
 import Axios from 'axios';
-import connect from 'react-redux';
+import {connect} from 'react-redux';
 
-import {getStatusText, getStatusCode, } from "../actions/index.js";
+import { getStatusText, getStatusCode, } from "../actions/index.js";
 
 
 
@@ -24,4 +24,4 @@ const mapStateToProps = storeState => ({
   returnedUrl: storeState.returnedUrl,
   requestedDomain: storeState.requestedDomain,
 })
-export default connect(mapStateToProps, {getStatusCode, getStatusText})(App);;
+export default connect(mapStateToProps, {getStatusCode, getStatusText})(App);
