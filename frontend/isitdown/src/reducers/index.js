@@ -1,8 +1,12 @@
 import {
   FETCH_STATUS_TEXT_START, // change this to your action
   FETCH_STATUS_TEXT_SUCCESS, // change this to your action
-  FETCH_STATUS_TEXT_FAILURE // change this to your action
-} from "../components/actions";
+  FETCH_STATUS_TEXT_FAILURE, // change this to your action
+  
+  FETCH_STATUS_CODE_START, // change this to your action
+  FETCH_STATUS_CODE_SUCCESS, // change this to your action
+  FETCH_STATUS_CODE_FAILURE // change this to your action
+} from "../actions";
 
 const initialState = {
   webpageState: [{

@@ -1,8 +1,12 @@
 import axios from "axios";
 
-export const FETCH_STATUS_TEXT_START = "FETCH_START";  // change this to your action
-export const FETCH_STATUS_TEXT_SUCCESS = "FETCH_SUCCESS";  // change this to your action
-export const FETCH_STATUS_TEXT_FAILURE = "FETCH_FAILURE";  // change this to your action
+export const FETCH_STATUS_CODE_START = "FETCH_CODE_START";  // change this to your action
+export const FETCH_STATUS_CODE_SUCCESS = "FETCH_CODE_SUCCESS";  // change this to your action
+export const FETCH_STATUS_CODE_FAILURE = "FETCH_CODE_FAILURE";  // change this to your action
+
+export const FETCH_STATUS_TEXT_START = "FETCH_TEXT_START";  // change this to your action
+export const FETCH_STATUS_TEXT_SUCCESS = "FETCH_TEXT_SUCCESS";  // change this to your action
+export const FETCH_STATUS_TEXT_FAILURE = "FETCH_TEXT_FAILURE";  // change this to your action
 
 export const getStatusText = () => dispatch => {
   // the dispatch function is the thunk
